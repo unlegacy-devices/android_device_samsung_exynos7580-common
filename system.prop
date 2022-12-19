@@ -17,3 +17,4 @@ ro.arch=exynos7580
 
 # Strict Mode
 persist.sys.strictmode.disable=true
+ro.sf.lcd_density=320
