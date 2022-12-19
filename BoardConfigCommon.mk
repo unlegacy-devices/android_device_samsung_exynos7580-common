@@ -133,10 +133,6 @@ BOARD_CHARGER_SHOW_PERCENTAGE := true
 BACKLIGHT_PATH := "/sys/class/backlight/panel/brightness"
 CHARGING_ENABLED_PATH := /sys/class/power_supply/battery/batt_lp_charging
 
-# SELinux
-BOARD_SEPOLICY_DIRS := \
-	device/samsung/exynos7580-common/sepolicy
-
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI          := true
 BOARD_WLAN_DEVICE                := bcmdhd
